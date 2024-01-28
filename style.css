@@ -1,0 +1,91 @@
+body { 
+    padding: 0px;
+    margin: 0px;
+    background-color: #cccbced2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+.projetos {
+    margin: 0;
+    background-color: rgba(245, 230, 211, 0.459);
+    box-shadow: 12px 1px 22px -1px rgba(0,0,0,0.51);
+    width: 75%;
+    height: 100%;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    min-height: 99.5vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding-left: 35px;
+}
+
+.titulo {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 32px;
+}
+
+.projeto1 , .projeto2 , .projeto3 {
+    display: flex;
+    min-height: 250px;
+    max-height: 250px; 
+    max-width: 200px;
+    height: 250px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: 100% 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.projeto1 {
+    background-image: url('./img/capa-gerador.png');
+   
+}
+
+.projeto2 {
+    background-image: url('./img/capa-listatarefa.png');
+    
+}
+
+.projeto3 {
+    background-image: url('./img/capa-parallax.png');
+}
+
+.conteudo {
+     padding-top: 40%;
+}
+
+.linguagens {
+    font-size: 25px;
+}
+
+i.fab.fa-html5 {
+    color: #fd5f04;
+}
+
+i.fa-brands.fa-css3-alt {
+    color: #0068f0;
+}
+
+i.fab.fa-js {
+    color: #fdf904;
+}
+
+i.fab.fa-php {
+    color: #5a3bc9a8;;
+}
