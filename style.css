@@ -35,6 +35,14 @@ body {
     font-size: 32px;
 }
 
+.link > a {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
 .projeto1 , .projeto2 , .projeto3 {
     display: flex;
     min-height: 250px;
@@ -46,10 +54,12 @@ body {
     border-radius: 10px;
     background-position: top; 
     background-repeat: no-repeat; 
-    background-size: 100% 40%;
+    background-size: 100% 37%;
     justify-content: center;
     align-items: center;
-    padding: 2px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
 }
 
 .projeto1 {
@@ -67,11 +77,11 @@ body {
 }
 
 .conteudo {
-     padding-top: 40%;
+     padding-top: 35%;
 }
 
 .linguagens {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 i.fab.fa-html5 {
