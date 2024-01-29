@@ -20,12 +20,17 @@ body {
 }
 
 .grid {
-    display: grid; 
     display: flex;
-    gap: 35px;
+    gap: 50px;
     justify-content: center;
    
 }
+
+@media screen and (max-width: 1050px) {
+    .grid {
+      display: grid;
+    }
+  }
 
 .titulo {
     font-family: 'Abril Fatface';
