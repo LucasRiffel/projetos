@@ -1,7 +1,7 @@
 body { 
     padding: 0px;
     margin: 0px;
-    background-color: #cccbced2;
+    background-color: #8ddad3d2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
 
 .projetos {
     margin: 0;
-    background-color: rgba(245, 230, 211, 0.459);
+    background-color: rgb(247, 255, 254);
     box-shadow: 12px 1px 22px -1px rgba(0,0,0,0.51);
     width: 70%;
     height: 100%;
@@ -58,7 +58,7 @@ body {
     max-width: 200px;
     height: 275px;
     width: 200px;
-    border: 1px solid #ffffff;
+    border: 1px solid #414141;
     border-radius: 10px;
     background-position: top; 
     background-repeat: no-repeat; 
@@ -76,7 +76,7 @@ body {
 }
 
 .projeto1:hover , .projeto2:hover , .projeto3:hover {
-    background-color: rgba(245, 230, 211, 0.459);
+    background-color: rgba(219, 255, 252, 0.527);
 }
 
 .projeto2 {
