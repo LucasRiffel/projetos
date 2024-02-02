@@ -19,22 +19,28 @@ body {
     min-height: 99.5vh;
 }
 
-.grid {
+.grid , .grid2{
     display: flex;
     gap: 50px;
     justify-content: center;
    
 }
 
+.grid2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1050px) {
-    .grid {
+    .grid , .grid2{
       display: grid;
     }
   }
 
 .titulo {
-    font-family: 'Abril Fatface';
+    font-family: 'Abril Fatface' , sans-serif;
     font-size: 32px;
+    color: rgb(32, 32, 32);
 }
 
 .link > a {
@@ -48,10 +54,9 @@ body {
 .titulo-projeto {
     font-size: 20px;
     color: #000000;
-
 }
 
-.projeto1 , .projeto2 , .projeto3 {
+.projeto1 , .projeto2 , .projeto3 , .projeto4 {
     display: flex;
     min-height: 275px;
     max-height: 275px; 
@@ -71,13 +76,16 @@ body {
     font-size: 14px;
 }
 
+.projeto1:hover , .projeto2:hover , .projeto3:hover , .projeto4:hover {
+    background-color: rgba(219, 255, 252, 0.527);
+}
+
+
 .projeto1 {
     background-image: url('./img/capa-gerador.png');
 }
 
-.projeto1:hover , .projeto2:hover , .projeto3:hover {
-    background-color: rgba(219, 255, 252, 0.527);
-}
+
 
 .projeto2 {
     background-image: url('./img/capa-listatarefa.png');
@@ -87,6 +95,11 @@ body {
 .projeto3 {
     background-image: url('./img/capa-parallax.png');
 }
+
+.projeto4 {
+    background-image: url('./img/capa-timer.png');
+}
+
 
 .conteudo {
      padding-top: 38%;
