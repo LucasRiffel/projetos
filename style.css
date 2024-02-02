@@ -1,7 +1,7 @@
 body { 
     padding: 0px;
     margin: 0px;
-    background-color: #8ddad3d2;
+    background-color: #99acd4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ body {
     color: #000000;
 }
 
-.projeto1 , .projeto2 , .projeto3 , .projeto4 {
+.projeto1 , .projeto2 , .projeto3 , .projeto4 , .projeto5 {
     display: flex;
     min-height: 275px;
     max-height: 275px; 
@@ -76,29 +76,34 @@ body {
     font-size: 14px;
 }
 
-.projeto1:hover , .projeto2:hover , .projeto3:hover , .projeto4:hover {
-    background-color: rgba(219, 255, 252, 0.527);
+.projeto1:hover , .projeto2:hover , .projeto3:hover , .projeto4:hover , .projeto5:hover {
+    background-color: #99acd473;
 }
 
 
 .projeto1 {
-    background-image: url('./img/capa-gerador.png');
+    background-image: url('./img/capa-timer.png');
 }
 
 
-
 .projeto2 {
+    background-image: url('./img/capa-login.png');
+}
+
+.projeto3 {
+    background-image: url('./img/capa-gerador.png');
+}
+
+.projeto4 {
     background-image: url('./img/capa-listatarefa.png');
     
 }
 
-.projeto3 {
-    background-image: url('./img/capa-timer.png');
-}
-
-.projeto4 {
+.projeto5 {
     background-image: url('./img/capa-parallax.png');
 }
+
+
 
 
 
